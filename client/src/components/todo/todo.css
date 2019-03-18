@@ -1,0 +1,34 @@
+#todo-box{
+    width: 70%;
+    margin: 5% auto;
+}
+
+#text-input{
+    width: 70%;
+    padding: 1.5%;
+    font-size: 1.3em;
+    color: #275d72;
+    border: 0.05em solid #419bbb;
+    outline: none;
+}
+
+#text-input:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+#submit-button{
+    width: 25%;
+    padding: 1.5%;
+    font-size: 1.3em;
+    color: #419bbb;
+    background-color: transparent;
+    border: 0.05em solid #419bbb;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#submit-button:hover{
+    color: #FFF;
+    background-color: #419bbb;
+}
